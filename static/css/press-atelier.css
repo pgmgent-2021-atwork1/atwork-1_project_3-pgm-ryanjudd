@@ -1,0 +1,68 @@
+article p {
+  font-size: 2.2rem;
+}
+
+article h2 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+
+article a {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-size: 2.2rem;
+}
+
+.archive {
+  color: #003CFF;
+}
+
+@media (min-width: 48em) {
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  article h1 {
+    width: 100%;
+  }
+
+  section {
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 3rem;
+  }
+
+  section:first-child {
+    margin-bottom: 20rem;
+  }
+
+  section:nth-child(n+2) {
+    width: 30%;
+  }
+
+  .full-width {
+    width: 100%;
+  }
+}
+
+@media (min-width: 64em) {
+  .press-side {
+    transform: rotate(-90deg);
+    width: 20rem;
+    position: absolute;
+    left: -4rem;
+    top: 60rem;
+  }
+
+  .press-side2 {
+    transform: rotate(-90deg);
+    width: 20rem;
+    position: absolute;
+    left: -4rem;
+    top: 120rem;
+  }
+}

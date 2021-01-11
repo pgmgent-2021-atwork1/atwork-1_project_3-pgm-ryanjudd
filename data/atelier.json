@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Strelitzia step by step",
+    "subTitle": "From sketch to sculpture",
+    "text": "Strelitzia flowers stand out in both expressive form ànd expressive colour. Having such a spiky...",
+    "image": "../static/img/atelier/atelier1.jpg"
+  },
+
+  {
+    "title": "How a massive Lupine Tower budded in the garden of an art collector",
+    "subTitle": "Welcome to Antwerp",
+    "text": "After numerous sketches and studies with paint in the studio, after shaping the flower calyxes,...",
+    "image": "../static/img/atelier/atelier2.gif"
+  },
+
+  {
+    "title": "The creative process of imaging a sculpture",
+    "subTitle": "The Lupine Studies, by Arne Quinze",
+    "text": "See how Arne Quinze's sculpture comes to life in his studio after many studies and versions. This...",
+    "image": "../static/img/atelier/atelier3.gif"
+  },
+
+  {
+    "title": "How to paint a massive Lupine Tower",
+    "subTitle": "A sculpture for a private garden in Antwerp",
+    "text": "This massive Lupine Tower sculpture is about to bud from the Antwerp soil. After finishing its...",
+    "image": "../static/img/atelier/atelier4.jpg"
+  },
+
+  {
+    "title": "Creating a Lupine for a collector's garden",
+    "subTitle": "Chroma Lupine sculpture",
+    "text": "A 6m tall sculpture will soon overlook the garden of this collector... ",
+    "image": "../static/img/atelier/atelier5.jpg"
+  },
+
+  {
+    "title": "Colourising a Lupine Tower sculpture — Part 2",
+    "subTitle": "A chromatic metal work for Frieze",
+    "text": "\"I approach the painting of my sculptures in the same way as I paint my canvases. It’s an ongoing...",
+    "image": "../static/img/atelier/atelier6.jpg"
+  }
+]

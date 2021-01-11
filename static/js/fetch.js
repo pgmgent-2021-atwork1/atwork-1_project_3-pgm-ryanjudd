@@ -1,5 +1,5 @@
 async function pressFetch() {
-  const press = '../../data/press.json';
+  const press = '../data/press.json';
 
   try {
     const response = await fetch(press);
@@ -11,7 +11,7 @@ async function pressFetch() {
 }
 
 async function atelierFetch() {
-  const atelier = '../../data/atelier.json';
+  const atelier = '../data/atelier.json';
 
   try {
     const response = await fetch(atelier);

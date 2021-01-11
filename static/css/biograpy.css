@@ -1,0 +1,140 @@
+p {
+  font-size: 2.2rem;
+}
+
+quote {
+  font-size: 3rem;
+  display: block;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.quote-wrapper {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.youtube-wrapper {
+  margin-top: 15rem;
+  margin-bottom: 5rem;
+}
+
+.embed-container {
+  margin-bottom: 5rem;
+}
+
+figcaption {
+  text-align: right;
+  font-weight: normal;
+}
+
+figure {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.nature p:last-child {
+  margin-bottom: 4rem;
+}
+
+.rights p {
+  font-size: 1.3rem;
+  margin-bottom: unset;
+}
+
+@media (min-width: 48em) {
+  .bottom-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5rem;
+  }
+
+  .bottom-images li {
+    width: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  li img {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .biography p {
+    width: 60%;
+  }
+
+  .youtube-wrapper p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  figure {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+  }
+
+  .diversity {
+    margin-top: 10rem;
+  }
+
+  .quinze,
+  .diversity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .quinze div:first-of-type,
+  .quinze p {
+    width: 40%;
+  }
+
+  .quinze div {
+    order: 2;
+  }
+
+  quote {
+    margin: 5rem;
+  }
+
+  .diversity div {
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .nature {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nature-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .image-wrapper {
+    width: 30%;
+  }
+
+  .image-wrapper2 {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

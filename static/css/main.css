@@ -1,0 +1,369 @@
+@font-face {
+  font-family: 'moderat';
+  src: url('../fonts/moderat-light-webfont.woff2') format('woff2'),
+       url('../fonts/moderat-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'moderat';
+  src: url('../fonts/moderat-regular-webfont.woff2') format('woff2'),
+       url('../fonts/moderat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 1rem = 10px*/
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  font-family: 'moderat';
+  font-weight: 300;
+}
+
+a {
+  color: #030000;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+a:hover {
+  color: #003CFF;
+  transition: ease .2s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin {
+  margin: 2rem;
+}
+
+.margin-left {
+  margin-left: 2rem;
+}
+
+.margin-right {
+  margin-right: 2rem;
+}
+
+@media (min-width: 47em) {
+  .margin {
+    margin: 4rem;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+header a {
+  line-height: 3rem;
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+}
+
+header h3 {
+  align-self: center;
+  font-size: 2rem;
+}
+
+.current {
+  color: #003CFF;
+  text-decoration: underline;
+}
+
+.logo {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 8rem;
+  height: 6rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (min-width: 47em) {
+  header a {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .logo {
+    width: 12rem;
+    
+  }
+}
+
+.sculpture {
+  margin-bottom: 10rem;
+}
+
+.sculpture h1 {
+  margin-top: 1rem;
+}
+
+.sculpture p,
+.ecosystem p {
+  margin-bottom: 1rem;
+}
+
+.sculpture img{
+  margin-bottom: 4rem;
+}
+
+.sub-title {
+  font-size: 2rem;
+  color: #838891;
+}
+
+.ecosystem img {
+  margin-bottom: 2rem;
+}
+
+.ecosystem-text a {
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.ecosystem-text a:hover {
+  text-decoration: underline;
+}
+
+
+@media (min-width: 47em) {
+  .ecosystem {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+  }
+  
+  .ecosystem-img {
+    width: 58%;
+    padding-top: 10rem;
+  }
+
+  .ecosystem-img img {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .ecosystem-text {
+    width: 20%;
+    margin-right: 5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .ecosystem-text {
+    font-size: 2.8rem;
+    line-height: 4rem;
+    align-self: center;
+  }
+
+  .ecosystem-text h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .ecosystem-text a {
+    font-size: 2.8rem;
+  }
+
+  .ecosystem-img img {
+    margin-top: 50%;
+    margin-bottom: auto;
+  }
+
+  .ecosystem-text .margin {
+    margin-right: 13%;
+  }
+
+  .margin {
+    margin: 8rem;
+  }
+  
+  .margin-left {
+    margin-left: 8rem;
+  }
+  
+  .margin-right {
+    margin-right: 8rem;
+  }
+  
+}
+
+.footer-top {
+  border-top: #E6E6E6 .1rem solid;
+}
+
+.footer-bottom {
+  background: #E6E6E6;
+  padding-top: 5rem;
+}
+
+.footer-bottom .margin {
+  margin-bottom: 0rem;
+  padding-bottom: 3rem;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 3rem;
+  /* margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem; */
+}
+
+.socials li {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+.socials a {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  text-decoration: none;
+}
+
+.socials_icons {
+  width: 3rem;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.email-footer {
+  margin-bottom: 5rem;
+  width: 100%;
+}
+
+.text-input {
+  background-color: #E6E6E6;
+  border: .1rem solid #B8B8B8;
+  color: #000;
+  width: 100%;
+  padding: 2%;
+  height: 4rem;
+  margin-top: 2rem;
+}
+
+.footer-instagram {
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-instagram span,
+.footer-instagram a {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-right: .5rem;
+}
+
+.footer-instagram span {
+  font-weight: normal;
+  width: 5rem;
+}
+
+.footer-instagram a {
+  font-weight: 300;
+  text-decoration: none;
+  width: 8rem;
+}
+
+.instagram-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.instagram-images li {
+  width: 48%;
+}
+
+.rights {
+  font-size: 1.3rem;
+}
+
+.rights a {
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+@media (min-width: 47em) {
+  .socials a {
+    flex-direction: row;
+  }
+
+  .socials li {
+    width: 20%;
+  }
+
+  .socials a {
+    flex-direction: column;
+  }
+
+  .instagram-images {
+    justify-content: unset;
+  }
+
+  .instagram-images li {
+    width: unset;
+  }
+
+  .instagram-images img {
+    width: 5rem;
+  }
+
+  .rights {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rights p {
+    width: 50%;
+  }
+
+  .rights p:last-child {
+    text-align: right;
+  }
+
+  .text-input {
+    width: 25rem;
+  }
+}

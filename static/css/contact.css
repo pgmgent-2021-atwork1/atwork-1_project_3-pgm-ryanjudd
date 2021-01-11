@@ -1,0 +1,84 @@
+.touch {
+  margin-bottom: 5rem;
+}
+
+.touch p {
+  color: #000;
+}
+
+p {
+  /* Allign spans underneath eachother*/
+  white-space: pre-line;
+  color: #838891;
+}
+
+p:last-child {
+  margin-bottom: 5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.form-wrapper h2 {
+  margin-bottom: 3rem;
+}
+
+.form-input {
+  width: 100%;
+  border: solid .1rem #B8B8B8;
+  font-family: 'moderat';
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+input {
+  margin-bottom: 2rem;
+}
+
+button {
+  border: none;
+  width: 10rem;
+  height: 5rem;
+  background-color: #003cff;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 15rem;
+}
+
+@media (min-width: 48em) {
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .contact,
+  .form-wrapper {
+    width: 30%;
+  }
+
+  .form-wrapper h2 {
+    margin-bottom: 2rem;
+  }
+
+  .touch {
+    width: 100%;
+  }
+
+  .touch p {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56em) {
+  .form-wrapper h2 {
+    margin-bottom: 3rem;
+  }
+}

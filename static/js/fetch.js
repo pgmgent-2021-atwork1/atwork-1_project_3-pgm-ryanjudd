@@ -16,6 +16,7 @@ async function atelierFetch() {
   try {
     const response = await fetch(atelier);
     json = await response.json();
+    console.log(json);
     return json;
   } catch (error) {
     console.log(error);

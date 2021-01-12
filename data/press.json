@@ -3,41 +3,41 @@
     "title": "Frieze — London",
     "subTitle": "Arne Quinze builds Lupine Tower for Frieze Sculpture, Regent's Park",
     "text": "This year, Frieze Sculpture returns to The Regent’s Park from 5 – 18 October, featuring 12...",
-    "image": "../static/img/press/press1.jpg"
+    "image": "static/img/press/press1.jpg"
   },
 
   {
     "title": "The Beautiful Dreamer — Paris",
     "subTitle": "The first permanent public art sculpture by Arne Quinze in France",
     "text": "Arne Quinze continues his journey to reshape our cities into more human environments with this...",
-    "image": "../static/img/press/press2.jpg"
+    "image": "static/img/press/press2.jpg"
   },
 
   {
     "title": "My secret Garden — Valencia",
     "subTitle": "Arne Quinze press release",
     "text": "“My Secret Garden Valencia” presents a series of six public sculptures that will enter into...",
-    "image": "../static/img/press/press3.jpg"
+    "image": "static/img/press/press3.jpg"
   },
 
   {
     "title": "Financial Times about Frieze Sculpture",
     "subTitle": "Frieze Sculpture Park opens its doors to nature",
     "text": "An upbeat free-to-wander exhibition combines playfulness with serious concerns of contemporary...",
-    "image": "../static/img/press/press4.jpg"
+    "image": "static/img/press/press4.jpg"
   },
 
   {
     "title": "My Secret Garden, Valencia — Extended",
     "subTitle": "Visit Arne Quinze's Secret Garden until the 1st of March",
     "text": "Since February 2019, the open-air exhibition of Arne Quinze already attracted 3 million visitors!...",
-    "image": "../static/img/press/press5.jpg"
+    "image": "static/img/press/press5.jpg"
   },
 
   {
     "title": "DJ Lefto in our studio",
     "subTitle": "An inspirational tour with Belgian most famous hip hop DJ",
     "text": "In this RTBF series, Hadja Lahbib follows Lefto visiting some of his friends artists and...",
-    "image": "../static/img/press/press6.jpg"
+    "image": "static/img/press/press6.jpg"
   }
 ]

@@ -48,7 +48,9 @@
           }
           pressHTML += `
           <section>
-            <img src="${element.image}">
+            <a href="press/my-secret-garden-valencia/index.html">
+              <img src="${element.image}">
+            </a>
             <div>
               <p><span class="sub-title">${element.subTitle}</span></p>
               <h2>${element.title}</h2>
@@ -105,7 +107,9 @@
           atelierHTML += `
           <section>
             <div>
-              <img src="${element.image}">
+              <a href="atelier-studio/visiting-mons-again/index.html">
+                <img src="${element.image}">
+              </a>
             </div>
             <div>
               <p><span class="sub-title">${element.subTitle}</span></p>

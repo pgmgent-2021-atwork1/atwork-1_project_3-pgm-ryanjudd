@@ -1,0 +1,144 @@
+.intro div:first-child {
+  font-size: 2.3rem;
+  line-height: 3rem;
+  margin-bottom: 20rem;
+}
+
+.images li {
+  margin-bottom: 5rem;
+}
+
+.text-center {
+  margin-top: 20rem;
+  margin-bottom: 5rem;
+}
+
+.text-right {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 48em) {
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+  
+  }
+  
+  .images li {
+    width: 26%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .intro div:first-child {
+    width: 60%;
+  }
+
+  .intro div:last-child {
+    margin-top: 9rem;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.unordered-list {
+  list-style-type: disc;
+  margin-left: 2.4rem;
+}
+
+.press-detail {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.press-detail h1 {
+  font-size: 4rem;
+}
+
+.press-detail h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.press-detail p {
+  margin-bottom: 2rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.documents section {
+  border: solid .1rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.documents div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.documents svg {
+  width: 2.5rem;
+  height: 3rem;
+  align-self: center;
+}
+
+.documents p {
+  font-size: 1.5rem;
+}
+
+.image-download-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-download-list li {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  justify-content: space-between;
+}
+
+@media (min-width: 48em) {
+  .press-detail article:nth-last-child(n+3) {
+    width: 60%;
+  }
+
+  .documents section {
+    width: 25%;
+  }
+
+  .documents h2 {
+    width: 100%;
+  }
+  
+  .documents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1  0rem;
+  }
+
+  .image-download-list li {
+    width: 20%;
+  }
+
+  .image-download-list li div {
+    width: 5rem;
+  }
+}

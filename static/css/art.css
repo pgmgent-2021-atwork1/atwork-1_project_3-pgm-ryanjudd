@@ -1,0 +1,84 @@
+.category,
+.year,
+.view {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.category li,
+.year li,
+.view li {
+  margin-right: 2rem;
+}
+
+.year a,
+.view a {
+  font-size: 1.5rem;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
+.year-h2 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  color: #7E7878;
+}
+
+.font-size {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h3 a {
+  text-decoration: none;
+}
+
+.items {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.items img {
+  margin-right: 2rem;
+}
+
+@media (min-width: 48em) {
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .items div:first-child {
+    width: 20%;
+  }
+
+  .image-wrapper {
+    width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .image-wrapper div {
+    margin-right: 4rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}

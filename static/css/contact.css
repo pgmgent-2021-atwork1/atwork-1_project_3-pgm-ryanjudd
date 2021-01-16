@@ -82,3 +82,8 @@ button {
     margin-bottom: 3rem;
   }
 }
+
+.scroll-button {
+  color: #000;
+  width: unset;
+}

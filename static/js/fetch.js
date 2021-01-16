@@ -16,7 +16,18 @@ async function atelierFetch() {
   try {
     const response = await fetch(atelier);
     json = await response.json();
-    console.log(json);
+    return json;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+async function arneQuinzeFetch() {
+  const art = `https://www.pgm.gent/data/arnequinze/art.json`;
+
+  try {
+    const response = await fetch(art);
+    json = await response.json();
     return json;
   } catch (error) {
     console.log(error);
